@@ -1,8 +1,8 @@
 import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.47.12/+esm";
 
 
-const projectUrl = "Your Project URl";
-const projectApiKey = "Your ProjectAPI Key";
+const projectUrl = "your Project URl";
+const projectApiKey = "Your ProjectAPIKey";
 
 const supabase = createClient(projectUrl, projectApiKey);
 
